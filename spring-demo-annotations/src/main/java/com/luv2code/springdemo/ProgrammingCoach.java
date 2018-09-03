@@ -10,4 +10,9 @@ public class ProgrammingCoach implements Coach {
 		return "Do your programming katas";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
+
 }
